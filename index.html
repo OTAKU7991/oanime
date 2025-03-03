@@ -117,9 +117,10 @@
         
         <div class="controls">
             <button onclick="previousEpisode()">Previous Episode</button>
+            <button onclick="toggleFullScreen()">Full Screen</button>
             <button onclick="nextEpisode()">Next Episode</button>
         </div>
-        <p id="imageSource" style="font-size: 12px; color: white; margin-top: 10px;"></p>
+                <p id="imageSource" style="font-size: 12px; color: white; margin-top: 10px;"></p>
         <h2>Anime Title</h2>
         <select id="categorySelector" onchange="loadEpisodes()">
         </select>
@@ -353,5 +354,32 @@
             populateCategories();
         </script>
     </div>
+    <script>
+        function toggleFullScreen() {
+            let video = document.getElementById("videoPlayer");
+            if (!document.fullscreenElement) {
+                if (video.requestFullscreen) {
+                    video.requestFullscreen();
+                } else if (video.mozRequestFullScreen) { // Firefox
+                    video.mozRequestFullScreen();
+                } else if (video.webkitRequestFullscreen) { // Chrome, Safari, and Opera
+                    video.webkitRequestFullscreen();
+                } else if (video.msRequestFullscreen) { // IE/Edge
+                    video.msRequestFullscreen();
+                }
+            } else {
+                if (document.exitFullscreen) {
+                    document.exitFullscreen();
+                } else if (document.mozCancelFullScreen) {
+                    document.mozCancelFullScreen();
+                } else if (document.webkitExitFullscreen) {
+                    document.webkitExitFullscreen();
+                } else if (document.msExitFullscreen) {
+                    document.msExitFullscreen();
+                }
+            }
+        }
+    </script>
+    
 </body>
 </html>
