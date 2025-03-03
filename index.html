@@ -3,8 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>Media Player</title>
+    <title>OTAKU ANIME</title>
     <style>
+        h2 {
+    text-shadow: -2px -2px 0 black,  
+                 2px -2px 0 black,  
+                 -2px 2px 0 black,  
+                 2px 2px 0 black;
+}
+
         body {
             background-color: #ff8c00;
             color: white;
@@ -117,15 +124,14 @@
         
         <div class="controls">
             <button onclick="previousEpisode()">Previous Episode</button>
-            <button onclick="toggleFullScreen()">Full Screen</button>
             <button onclick="nextEpisode()">Next Episode</button>
         </div>
                 <p id="imageSource" style="font-size: 12px; color: white; margin-top: 10px;"></p>
-        <h2>Anime Title</h2>
-        <select id="categorySelector" onchange="loadEpisodes()">
+                <h2 class="stroke-text">Anime Title</h2>
+                        <select id="categorySelector" onchange="loadEpisodes()">
         </select>
         
-        <h2>Select Episode</h2>
+        <h2 class="stroke-text">Select Episode</h2>
         <select id="videoSelector" onchange="changeVideo()">
         </select>
         
@@ -284,6 +290,247 @@
     { "title": "Episode 148", "url": "https://archive.org/download/anime-2.0-5/%F0%9D%97%94%F0%9D%97%BB%F0%9D%97%B6%F0%9D%97%BA%F0%9D%97%B2%20%F0%9D%9F%AE.%F0%9D%9F%AC%20-%20148.mp4" }
 ]
                 },
+                "Black CLover": {
+                    background: "bc.jpg",
+                    episodes: [
+                    { title: "Episode 1", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep01.mp4" },
+{ title: "Episode 2", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep02.mp4" },
+{ title: "Episode 3", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep03.mp4" },
+{ title: "Episode 4", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep04.mp4" },
+{ title: "Episode 5", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep05.mp4" },
+{ title: "Episode 6", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep06.mp4" },
+{ title: "Episode 7", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep07.mp4" },
+{ title: "Episode 8", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep08.mp4" },
+{ title: "Episode 9", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep09.mp4" },
+{ title: "Episode 10", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep10.mp4" },
+{ title: "Episode 11", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep11.mp4" },
+{ title: "Episode 12", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep12.mp4" },
+{ title: "Episode 13", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep13.mp4" },
+{ title: "Episode 14", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep14.mp4" },
+{ title: "Episode 15", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep15.mp4" },
+{ title: "Episode 16", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep16.mp4" },
+{ title: "Episode 17", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep17.mp4" },
+{ title: "Episode 18", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep18.mp4" },
+{ title: "Episode 19", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep19.mp4" },
+{ title: "Episode 20", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep20.mp4" },
+{ title: "Episode 21", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep21.mp4" },
+{ title: "Episode 22", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep22.mp4" },
+{ title: "Episode 23", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep23.mp4" },
+{ title: "Episode 24", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep24.mp4" },
+{ title: "Episode 25", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep25.mp4" },
+{ title: "Episode 26", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep26.mp4" },
+{ title: "Episode 27", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep27.mp4" },
+{ title: "Episode 28", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep28.mp4" },
+{ title: "Episode 29", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep29.mp4" },
+{ title: "Episode 30", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep30.mp4" },
+{ title: "Episode 31", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep31.mp4" },
+{ title: "Episode 32", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep32.mp4" },
+{ title: "Episode 33", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep33.mp4" },
+{ title: "Episode 34", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep34.mp4" },
+{ title: "Episode 35", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep35.mp4" },
+{ title: "Episode 36", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep36.mp4" },
+{ title: "Episode 37", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep37.mp4" },
+{ title: "Episode 38", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep38.mp4" },
+{ title: "Episode 39", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep39.mp4" },
+{ title: "Episode 40", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep40.mp4" },
+{ title: "Episode 41", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep41.mp4" },
+{ title: "Episode 42", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep42.mp4" },
+{ title: "Episode 43", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep43.mp4" },
+{ title: "Episode 44", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep44.mp4" },
+{ title: "Episode 45", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep45.mp4" },
+{ title: "Episode 46", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep46.mp4" },
+{ title: "Episode 47", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep47.mp4" },
+{ title: "Episode 48", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep48.mp4" },
+{ title: "Episode 49", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep49.mp4" },
+{ title: "Episode 50", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep50.mp4" },
+{ title: "Episode 51", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep51.mp4" },
+{ title: "Episode 52", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep52.mp4" },
+{ title: "Episode 53", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep53.mp4" },
+{ title: "Episode 54", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep54.mp4" },
+{ title: "Episode 55", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep55.mp4" },
+{ title: "Episode 56", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep56.mp4" },
+{ title: "Episode 57", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep57.mp4" },
+{ title: "Episode 58", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep58.mp4" },
+{ title: "Episode 59", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep59.mp4" },
+{ title: "Episode 60", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep60.mp4" },
+{ title: "Episode 61", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep61.mp4" },
+{ title: "Episode 62", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep62.mp4" },
+{ title: "Episode 63", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep63.mp4" },
+{ title: "Episode 64", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep64.mp4" },
+{ title: "Episode 65", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep65.mp4" },
+{ title: "Episode 66", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep66.mp4" },
+{ title: "Episode 67", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep67.mp4" },
+{ title: "Episode 68", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep68.mp4" },
+{ title: "Episode 69", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep69.mp4" },
+{ title: "Episode 70", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep70.mp4" },
+{ title: "Episode 71", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep71.mp4" },
+{ title: "Episode 72", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep72.mp4" },
+{ title: "Episode 73", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep73.mp4" },
+{ title: "Episode 74", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep74.mp4" },
+{ title: "Episode 75", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep75.mp4" },
+{ title: "Episode 76", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep76.mp4" },
+{ title: "Episode 77", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep77.mp4" },
+{ title: "Episode 78", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep78.mp4" },
+{ title: "Episode 79", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep79.mp4" },
+{ title: "Episode 80", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep80.mp4" },
+{ title: "Episode 81", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep81.mp4" },
+{ title: "Episode 82", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep82.mp4" },
+{ title: "Episode 83", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep83.mp4" },
+{ title: "Episode 84", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep84.mp4" },
+{ title: "Episode 85", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep85.mp4" },
+{ title: "Episode 86", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep86.mp4" },
+{ title: "Episode 87", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep87.mp4" },
+{ title: "Episode 88", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep88.mp4" },
+{ title: "Episode 89", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep89.mp4" },
+{ title: "Episode 90", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep90.mp4" },
+{ title: "Episode 91", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep91.mp4" },
+{ title: "Episode 92", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep92.mp4" },
+{ title: "Episode 93", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep93.mp4" },
+{ title: "Episode 94", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep94.mp4" },
+{ title: "Episode 95", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep95.mp4" },
+{ title: "Episode 96", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep96.mp4" },
+{ title: "Episode 97", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep97.mp4" },
+{ title: "Episode 98", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep98.mp4" },
+{ title: "Episode 99", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep99.mp4" },
+{ title: "Episode 100", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep100.mp4" },
+{ title: "Episode 101", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep101.mp4" },
+{ title: "Episode 102", url: "https://file.garden/Z5iMyklJBX3zDDC5/BClover/Black%20Clover%20S1-Ep102.mp4" }
+                    ]
+                },
+                "Jujutsu Kaisen": {
+                    background: "jjk.png",
+                    episodes: [
+                    { "title": "Episode 1", "url": "https://archive.org/download/jjkaisen-17/JJkaisen%2001.mp4" },
+{ "title": "Episode 2", "url": "https://archive.org/download/jjkaisen-17/JJkaisen%2002.mp4" },
+{ "title": "Episode 3", "url": "https://archive.org/download/jjkaisen-17/JJkaisen%2003.mp4" },
+{ "title": "Episode 4", "url": "https://archive.org/download/jjkaisen-17/JJkaisen%2004.mp4" },
+{ "title": "Episode 5", "url": "https://archive.org/download/jjkaisen-17/JJkaisen%2005.mp4" },
+{ "title": "Episode 6", "url": "https://archive.org/download/jjkaisen-17/JJkaisen%2006.mp4" },
+{ "title": "Episode 7", "url": "https://archive.org/download/jjkaisen-17/JJkaisen%2007.mp4" },
+{ "title": "Episode 8", "url": "https://archive.org/download/jjkaisen-17/JJkaisen%2008.mp4" },
+{ "title": "Episode 9", "url": "https://archive.org/download/jjkaisen-17/JJkaisen%2009.mp4" },
+{ "title": "Episode 10", "url": "https://archive.org/download/jjkaisen-17/JJkaisen%2010.mp4" },
+{ "title": "Episode 11", "url": "https://archive.org/download/jjkaisen-17/JJkaisen%2011.mp4" },
+{ "title": "Episode 12", "url": "https://archive.org/download/jjkaisen-17/JJkaisen%2012.mp4" },
+{ "title": "Episode 13", "url": "https://archive.org/download/jjkaisen-17/JJkaisen%2013.mp4" },
+{ "title": "Episode 14", "url": "https://archive.org/download/jjkaisen-17/JJkaisen%2014.mp4" },
+{ "title": "Episode 15", "url": "https://archive.org/download/jjkaisen-17/JJkaisen%2015.mp4" },
+{ "title": "Episode 16", "url": "https://archive.org/download/jjkaisen-17/JJkaisen%2016.mp4" },
+{ "title": "Episode 17", "url": "https://archive.org/download/jjkaisen-17/JJkaisen%2017.mp4" },
+{ "title": "Episode 18", "url": "https://archive.org/download/jjkaisen-17/JJkaisen%2018.mp4" },
+{ "title": "Episode 19", "url": "https://archive.org/download/jjkaisen-17/JJkaisen%2019.mp4" },
+{ "title": "Episode 20", "url": "https://archive.org/download/jjkaisen-17/JJkaisen%2020.mp4" },
+{ "title": "Episode 21", "url": "https://archive.org/download/jjkaisen-17/JJkaisen%2021.mp4" },
+{ "title": "Episode 22", "url": "https://archive.org/download/jjkaisen-17/JJkaisen%2022.mp4" },
+{ "title": "Episode 23", "url": "https://archive.org/download/jjkaisen-17/JJkaisen%2023.mp4" },
+{ "title": "Episode 24", "url": "https://archive.org/download/jjkaisen-17/JJkaisen%2024.mp4" }
+                    ]
+                },
+                "Naruto Kid": {
+                    background: "nk.jpg",
+                    episodes: [
+                    { title: "Episode 1", url: "https://animerevival.xyz/files/nrkd/Naruto%2001.mp4" },
+{ title: "Episode 2", url: "https://animerevival.xyz/files/nrkd/Naruto%2002.mp4" },
+{ title: "Episode 3", url: "https://animerevival.xyz/files/nrkd/Naruto%2003.mp4" },
+{ title: "Episode 4", url: "https://animerevival.xyz/files/nrkd/Naruto%2004.mp4" },
+{ title: "Episode 5", url: "https://animerevival.xyz/files/nrkd/Naruto%2005.mp4" },
+{ title: "Episode 6", url: "https://animerevival.xyz/files/nrkd/Naruto%2006.mp4" },
+{ title: "Episode 7", url: "https://animerevival.xyz/files/nrkd/Naruto%2007.mp4" },
+{ title: "Episode 8", url: "https://animerevival.xyz/files/nrkd/Naruto%2008.mp4" },
+{ title: "Episode 9", url: "https://animerevival.xyz/files/nrkd/Naruto%2009.mp4" },
+{ title: "Episode 10", url: "https://animerevival.xyz/files/nrkd/Naruto%2010.mp4" },
+{ title: "Episode 11", url: "https://animerevival.xyz/files/nrkd/Naruto%2011.mp4" },
+{ title: "Episode 12", url: "https://animerevival.xyz/files/nrkd/Naruto%2012.mp4" },
+{ title: "Episode 13", url: "https://animerevival.xyz/files/nrkd/Naruto%2013.mp4" },
+{ title: "Episode 14", url: "https://animerevival.xyz/files/nrkd/Naruto%2014.mp4" },
+{ title: "Episode 15", url: "https://animerevival.xyz/files/nrkd/Naruto%2015.mp4" },
+{ title: "Episode 16", url: "https://animerevival.xyz/files/nrkd/Naruto%2016.mp4" },
+{ title: "Episode 17", url: "https://animerevival.xyz/files/nrkd/Naruto%2017.mp4" },
+{ title: "Episode 18", url: "https://animerevival.xyz/files/nrkd/Naruto%2018.mp4" },
+{ title: "Episode 19", url: "https://animerevival.xyz/files/nrkd/Naruto%2019.mp4" },
+{ title: "Episode 20", url: "https://animerevival.xyz/files/nrkd/Naruto%2020.mp4" },
+{ title: "Episode 21", url: "https://animerevival.xyz/files/nrkd/Naruto%2021.mp4" },
+{ title: "Episode 22", url: "https://animerevival.xyz/files/nrkd/Naruto%2022.mp4" },
+{ title: "Episode 23", url: "https://animerevival.xyz/files/nrkd/Naruto%2023.mp4" },
+{ title: "Episode 24", url: "https://animerevival.xyz/files/nrkd/Naruto%2024.mp4" },
+{ title: "Episode 25", url: "https://animerevival.xyz/files/nrkd/Naruto%2025.mp4" },
+{ title: "Episode 26", url: "https://animerevival.xyz/files/nrkd/Naruto%2026.mp4" },
+{ title: "Episode 27", url: "https://animerevival.xyz/files/nrkd/Naruto%2027.mp4" },
+{ title: "Episode 28", url: "https://animerevival.xyz/files/nrkd/Naruto%2028.mp4" },
+{ title: "Episode 29", url: "https://animerevival.xyz/files/nrkd/Naruto%2029.mp4" },
+{ title: "Episode 30", url: "https://animerevival.xyz/files/nrkd/Naruto%2030.mp4" },
+{ title: "Episode 31", url: "https://animerevival.xyz/files/nrkd/Naruto%2031.mp4" },
+{ title: "Episode 32", url: "https://animerevival.xyz/files/nrkd/Naruto%2032.mp4" },
+{ title: "Episode 33", url: "https://animerevival.xyz/files/nrkd/Naruto%2033.mp4" },
+{ title: "Episode 34", url: "https://animerevival.xyz/files/nrkd/Naruto%2034.mp4" },
+{ title: "Episode 35", url: "https://animerevival.xyz/files/nrkd/Naruto%2035.mp4" },
+{ title: "Episode 36", url: "https://animerevival.xyz/files/nrkd/Naruto%2036.mp4" },
+{ title: "Episode 37", url: "https://animerevival.xyz/files/nrkd/Naruto%2037.mp4" },
+{ title: "Episode 38", url: "https://animerevival.xyz/files/nrkd/Naruto%2038.mp4" },
+{ title: "Episode 39", url: "https://animerevival.xyz/files/nrkd/Naruto%2039.mp4" },
+{ title: "Episode 40", url: "https://animerevival.xyz/files/nrkd/Naruto%2040.mp4" },
+{ title: "Episode 41", url: "https://animerevival.xyz/files/nrkd/Naruto%2041.mp4" },
+{ title: "Episode 42", url: "https://animerevival.xyz/files/nrkd/Naruto%2042.mp4" },
+{ title: "Episode 43", url: "https://animerevival.xyz/files/nrkd/Naruto%2043.mp4" },
+{ title: "Episode 44", url: "https://animerevival.xyz/files/nrkd/Naruto%2044.mp4" },
+{ title: "Episode 45", url: "https://animerevival.xyz/files/nrkd/Naruto%2045.mp4" },
+{ title: "Episode 46", url: "https://animerevival.xyz/files/nrkd/Naruto%2046.mp4" },
+{ title: "Episode 47", url: "https://animerevival.xyz/files/nrkd/Naruto%2047.mp4" },
+{ title: "Episode 48", url: "https://animerevival.xyz/files/nrkd/Naruto%2048.mp4" },
+{ title: "Episode 49", url: "https://animerevival.xyz/files/nrkd/Naruto%2049.mp4" },
+{ title: "Episode 50", url: "https://animerevival.xyz/files/nrkd/Naruto%2050.mp4" },
+{ title: "Episode 51", url: "https://animerevival.xyz/files/nrkd/Naruto%2051.mp4" },
+{ title: "Episode 52", url: "https://animerevival.xyz/files/nrkd/Naruto%2052.mp4" },
+{ title: "Episode 53", url: "https://animerevival.xyz/files/nrkd/Naruto%2053.mp4" },
+{ title: "Episode 54", url: "https://animerevival.xyz/files/nrkd/Naruto%2054.mp4" },
+{ title: "Episode 55", url: "https://animerevival.xyz/files/nrkd/Naruto%2055.mp4" },
+{ title: "Episode 56", url: "https://animerevival.xyz/files/nrkd/Naruto%2056.mp4" },
+{ title: "Episode 57", url: "https://animerevival.xyz/files/nrkd/Naruto%2057.mp4" },
+{ title: "Episode 58", url: "https://animerevival.xyz/files/nrkd/Naruto%2058.mp4" },
+{ title: "Episode 59", url: "https://animerevival.xyz/files/nrkd/Naruto%2059.mp4" },
+{ title: "Episode 60", url: "https://animerevival.xyz/files/nrkd/Naruto%2060.mp4" },
+{ title: "Episode 61", url: "https://animerevival.xyz/files/nrkd/Naruto%2061.mp4" },
+{ title: "Episode 62", url: "https://animerevival.xyz/files/nrkd/Naruto%2062.mp4" },
+{ title: "Episode 63", url: "https://animerevival.xyz/files/nrkd/Naruto%2063.mp4" },
+{ title: "Episode 64", url: "https://animerevival.xyz/files/nrkd/Naruto%2064.mp4" },
+{ title: "Episode 65", url: "https://animerevival.xyz/files/nrkd/Naruto%2065.mp4" },
+{ title: "Episode 66", url: "https://animerevival.xyz/files/nrkd/Naruto%2066.mp4" },
+{ title: "Episode 67", url: "https://animerevival.xyz/files/nrkd/Naruto%2067.mp4" },
+{ title: "Episode 68", url: "https://animerevival.xyz/files/nrkd/Naruto%2068.mp4" },
+{ title: "Episode 69", url: "https://animerevival.xyz/files/nrkd/Naruto%2069.mp4" },
+{ title: "Episode 70", url: "https://animerevival.xyz/files/nrkd/Naruto%2070.mp4" },
+{ title: "Episode 71", url: "https://animerevival.xyz/files/nrkd/Naruto%2071.mp4" },
+{ title: "Episode 72", url: "https://animerevival.xyz/files/nrkd/Naruto%2072.mp4" },
+{ title: "Episode 73", url: "https://animerevival.xyz/files/nrkd/Naruto%2073.mp4" },
+{ title: "Episode 74", url: "https://animerevival.xyz/files/nrkd/Naruto%2074.mp4" },
+{ title: "Episode 75", url: "https://animerevival.xyz/files/nrkd/Naruto%2075.mp4" },
+{ title: "Episode 76", url: "https://animerevival.xyz/files/nrkd/Naruto%2076.mp4" },
+{ title: "Episode 77", url: "https://animerevival.xyz/files/nrkd/Naruto%2077.mp4" },
+{ title: "Episode 78", url: "https://animerevival.xyz/files/nrkd/Naruto%2078.mp4" },
+{ title: "Episode 79", url: "https://animerevival.xyz/files/nrkd/Naruto%2079.mp4" },
+{ title: "Episode 80", url: "https://animerevival.xyz/files/nrkd/Naruto%2080.mp4" },
+{ title: "Episode 81", url: "https://animerevival.xyz/files/nrkd/Naruto%2081.mp4" },
+{ title: "Episode 82", url: "https://animerevival.xyz/files/nrkd/Naruto%2082.mp4" },
+{ title: "Episode 83", url: "https://animerevival.xyz/files/nrkd/Naruto%2083.mp4" },
+{ title: "Episode 84", url: "https://animerevival.xyz/files/nrkd/Naruto%2084.mp4" },
+{ title: "Episode 85", url: "https://animerevival.xyz/files/nrkd/Naruto%2085.mp4" },
+{ title: "Episode 86", url: "https://animerevival.xyz/files/nrkd/Naruto%2086.mp4" },
+{ title: "Episode 87", url: "https://animerevival.xyz/files/nrkd/Naruto%2087.mp4" },
+{ title: "Episode 88", url: "https://animerevival.xyz/files/nrkd/Naruto%2088.mp4" },
+{ title: "Episode 89", url: "https://animerevival.xyz/files/nrkd/Naruto%2089.mp4" },
+{ title: "Episode 90", url: "https://animerevival.xyz/files/nrkd/Naruto%2090.mp4" },
+{ title: "Episode 91", url: "https://animerevival.xyz/files/nrkd/Naruto%2091.mp4" },
+{ title: "Episode 92", url: "https://animerevival.xyz/files/nrkd/Naruto%2092.mp4" },
+{ title: "Episode 93", url: "https://animerevival.xyz/files/nrkd/Naruto%2093.mp4" },
+{ title: "Episode 94", url: "https://animerevival.xyz/files/nrkd/Naruto%2094.mp4" },
+{ title: "Episode 95", url: "https://animerevival.xyz/files/nrkd/Naruto%2095.mp4" },
+{ title: "Episode 96", url: "https://animerevival.xyz/files/nrkd/Naruto%2096.mp4" },
+{ title: "Episode 97", url: "https://animerevival.xyz/files/nrkd/Naruto%2097.mp4" },
+{ title: "Episode 98", url: "https://animerevival.xyz/files/nrkd/Naruto%2098.mp4" },
+{ title: "Episode 99", url: "https://animerevival.xyz/files/nrkd/Naruto%2099.mp4" },
+{ title: "Episode 100", url: "https://animerevival.xyz/files/nrkd/Naruto%20100.mp4" },
+                    ]
+                },
                 "COMING SOON...": {
                     background: "onepiece_background.png",
                     episodes: [
@@ -291,6 +538,7 @@
                         { title: "Episode 2", url: "https://www.example.com/op2.mp4" }
                     ]
                 }
+                
             };
             
             let categorySelector = document.getElementById("categorySelector");
@@ -379,42 +627,14 @@
                 }
             }
         }
-    </script>
-  <script>
-    function isInsideIframe() {
-        return window.self !== window.top;
+        document.addEventListener("DOMContentLoaded", function () {
+    let imageSourceElement = document.getElementById("imageSource");
+    if (imageSourceElement) {
+        imageSourceElement.style.display = "none"; // Completely hide the element
     }
+});
 
-    function toggleFullScreen() {
-        let elem = document.documentElement; // Fullscreen the whole document
-
-        if (isInsideIframe()) {
-            alert("Fullscreen may be restricted due to iframe policies.");
-        }
-
-        if (!document.fullscreenElement) {
-            if (elem.requestFullscreen) {
-                elem.requestFullscreen();
-            } else if (elem.mozRequestFullScreen) { // Firefox
-                elem.mozRequestFullScreen();
-            } else if (elem.webkitRequestFullscreen) { // Chrome, Safari, Opera
-                elem.webkitRequestFullscreen();
-            } else if (elem.msRequestFullscreen) { // IE/Edge
-                elem.msRequestFullscreen();
-            }
-        } else {
-            if (document.exitFullscreen) {
-                document.exitFullscreen();
-            } else if (document.mozCancelFullScreen) {
-                document.mozCancelFullScreen();
-            } else if (document.webkitExitFullscreen) {
-                document.webkitExitFullscreen();
-            } else if (document.msExitFullscreen) {
-                document.msExitFullscreen();
-            }
-        }
-    }
 </script>
-  
+
 </body>
 </html>
