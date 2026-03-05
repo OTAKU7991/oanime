@@ -1,2 +1,0 @@
-# oanime
-ads free videos
